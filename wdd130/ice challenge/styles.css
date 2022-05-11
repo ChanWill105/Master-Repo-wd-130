@@ -1,36 +1,41 @@
 body {
-    background-color: pink;
+    background-color: #FBA6C9;
 }
 
 h1 {
-    color: blue;
+    font-size: 50px;
+    color: white;
     /* border: 1px dashed; */
 }
 
 /* changes color when mouse is on top of element */
 h1:hover {
-    color: red;
+    color: black;
 }
 
 article {
     text-align: center;
+    max-width: 1000px;
+    /* border: 1px dashed; */
 }
 
 article img {
     max-width: 300px;
     height: auto;
-    /* max-width: 100px; */
-    border: 1px dashed;
 }
 
 article ol {
     margin: 25px auto;
     max-width: 600px;
     text-align: left;
-
     /* bold text here */
+    font-weight: bold;
 }
 
-article figure cite {   
+article figure {
+    color: white;
+}
+
+article figure cite {
     display: block;
 }
