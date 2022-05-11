@@ -1,0 +1,36 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: blue;
+    /* border: 1px dashed; */
+}
+
+/* changes color when mouse is on top of element */
+h1:hover {
+    color: red;
+}
+
+article {
+    text-align: center;
+}
+
+article img {
+    max-width: 300px;
+    height: auto;
+    /* max-width: 100px; */
+    border: 1px dashed;
+}
+
+article ol {
+    margin: 25px auto;
+    max-width: 600px;
+    text-align: left;
+
+    /* bold text here */
+}
+
+article figure cite {   
+    display: block;
+}
