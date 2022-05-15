@@ -9,6 +9,11 @@
 nav:a {
     text-align: center;
     color: black;
+    text-decoration: none;
+}
+
+footer:a {
+    text-decoration: none;
 }
 
 div.hero {
@@ -37,16 +42,22 @@ header {
     background-color: lightblue;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 nav a:hover {
     background-color: red;
 }
 
 .book {
     background-color: white;
+    text-decoration: none;
 }
 
 .join {
     background-color: white;
+    text-decoration: none;
 }
 
 .book:hover {
@@ -67,8 +78,17 @@ nav a:hover {
 
 footer {
     background-color: lightblue;
+    text-decoration: underline;
 }
 
 .logo {
     width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+h3 {
+    text-decoration: underline;
 }
