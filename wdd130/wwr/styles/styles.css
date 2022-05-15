@@ -68,3 +68,7 @@ nav a:hover {
 footer {
     background-color: lightblue;
 }
+
+.logo {
+    width: 80px;
+}
