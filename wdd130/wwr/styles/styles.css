@@ -29,6 +29,41 @@ main {
 }
 
 body {
-    background-color: pink; 
+    background-color: lightgrey; 
 }
 
+header {
+    background-color: lightblue;
+}
+
+nav a:hover {
+    background-color: red;
+}
+
+.book {
+    background-color: white;
+}
+
+.join {
+    background-color: white;
+}
+
+.book:hover {
+    background-color: green;
+}
+
+.join:hover {
+    background-color: green;
+}
+
+#background {
+    background-color: white;
+}
+
+.msg {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: lightblue;
+}
