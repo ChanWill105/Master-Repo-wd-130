@@ -21,3 +21,9 @@ div.hero {
 main {
     text-align: center;
 }
+
+#background {
+    height: 725px;
+    /* test */
+    /* background-color: coral; */
+}
