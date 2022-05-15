@@ -5,3 +5,19 @@
     /* test */
     /* background-color: coral; */
 }
+
+nav:a {
+    text-align: center;
+}
+
+div.hero {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
