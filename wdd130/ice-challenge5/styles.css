@@ -1,4 +1,56 @@
 body {
     /* testing to see if style sheet linked
     background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    /* padding and margin to 0 */
+    padding: 0;
+    margin: 0;
+}
+
+#title-card {
+    /* put text in bottom left corner */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    min-height: 450px;
+    flex-basis: 450px;
+}
+
+#title-card h1 {
+    padding: 0 60px;
+}
+
+#title-card h2 {
+    padding: 0 60px 60px 60px;
+}
+
+.card-holder {
+
+}
+
+.card-holder .card{
+    margin: 30px;
+    border: 20px solid grey;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow:hidden;
+
+    /* center the image */
+    
+}
+
+.card-holder img {
+    max-width: 300px;
+    height: auto;
 }
